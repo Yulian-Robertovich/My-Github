@@ -90,6 +90,10 @@ body {
 }
 .red {
   color: red;
+  margin-left: 10px;
+}
+.black {
+  margin-left: 10px;
 }
 .photos img {
   width: 100%;
