@@ -2,6 +2,15 @@ html,
 body {
   padding: 0;
   margin: 0;
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.buttons {
+  display: block;
+  margin-bottom: 20px;
+  display: flex;
 }
 
 .buttons button {
@@ -126,5 +135,6 @@ h1 {
 }
 
 .svg-container {
+  display: block;
   perspective: 210px;
 }
