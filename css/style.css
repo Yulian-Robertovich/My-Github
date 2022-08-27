@@ -58,6 +58,17 @@ h1 {
   z-index: 10;
 }
 
+.cat {
+  transition: all 1.3s;
+}
+
+.shape:hover,
+.sad,
+.mouth {
+  transform: scale(0.98);
+  fill: #333;
+}
+
 .blue-eyes .eye-color {
   fill: #175282;
 }
